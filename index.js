@@ -13,7 +13,7 @@ function handleFunc() {
   var percentage = Math.floor(Math.random()*100+1)
 
 
-  if (name1 == "" || name2 == "") {
+  if (name1 == " " || name2 == " ") {
     alert("Please fill this input Field")
   }else if(name1.value.length <3 || name2.value.length <3){
     alert("Must be 3 character ")
