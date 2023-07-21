@@ -58,6 +58,6 @@ tr td input{
   font-weight: bold;
   background:red;
   color:white;
-  display: none;
+  visibility:hidden;
 }
 
