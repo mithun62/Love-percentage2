@@ -1,0 +1,63 @@
+
+.container{
+  margin:112px 0 ;
+  background:purple;
+  padding:6px;
+  border-radius: 5px;
+  height:700px;
+  color:white;
+  text-align: center;
+  box-shadow: 3px 3px 2px black;
+}
+
+.head h2::first-letter{
+  color:#efff11;
+  font-size: 30px;
+}
+
+.head{
+  margin:16px 0;
+}
+
+.container table{
+  width:100%;
+  text-align: center;
+  border:1px solid white;
+  border-radius: 4px;
+}
+
+td{
+  padding:7px
+}
+
+.sign{
+  margin:0;
+  padding:0;
+  display: inline-block;
+  color:white;
+  font-weight: bold;
+}
+
+tr td input{
+  padding:8px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn{
+  background:green;
+  font-weight: bold;
+  color:white;
+  padding:20px 30px;
+}
+
+.refresh{
+  padding:12px;
+  border-radius:5px;
+  width:160px;
+  font-weight: bold;
+  background:red;
+  color:white;
+  display: none;
+}
+
