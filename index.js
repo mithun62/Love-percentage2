@@ -16,7 +16,7 @@ function handleFunc() {
   if (name1 == "" || name2 == "") {
     alert("Please fill this input Field")
   }else if(name1.value.length <3 || name2.value.length <3){
-    alert("Must be 3 word")
+    alert("Must be 3 character ")
   }
   else {
     msg.innerText=`(${name1.value} + ${name2.value}) Love percentage is ${percentage}%`
